@@ -3,7 +3,8 @@
 Static marketing site for [Distilly](https://github.com/titanwings/distilly), built for GitHub Pages.
 
 - Homepage: `index.html`
-- Community catalog preview: `marketplace.html`
+- Community catalog browser (215 public entries): `marketplace.html`
+- `skills.json` — static snapshot of public YAML metadata from [colleague-skill-site](https://github.com/titanwings/colleague-skill-site/tree/main/website/src/content/skills)
 - Read-only interactive profile demo: `demo.html`
 
 Live: https://titanwings.github.io/distilly-site/

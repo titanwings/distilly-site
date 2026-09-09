@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Distilly keeps people knowledge local, evidence based, and ready when your agent needs it." />
+  <title>Distilly — Memory you can audit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html"><span class="mark">D</span><span>distilly</span></a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#how">HOW IT WORKS</a><a href="marketplace.html">MARKETPLACE</a><a href="demo.html">DEMO</a><a href="https://github.com/titanwings/distilly" target="_blank" rel="noreferrer">GITHUB ↗</a>
+    </nav>
+    <div class="nav-actions"><button class="lang-toggle" type="button" data-lang-toggle>中文</button><a class="button button-dark" href="#quickstart">Install Skill <span>↗</span></a></div>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span><span data-en="LOCAL-FIRST MEMORY · OPEN SOURCE" data-zh="本地优先记忆 · 开源" >LOCAL-FIRST MEMORY · OPEN SOURCE</span></div>
+        <h1 data-en="Memory you can<br><em>audit.</em>" data-zh="每一条记忆<br>都能被<em>审计。</em>">Memory you can<br><em>audit.</em></h1>
+        <p class="lede" data-en="Distilly turns conversations, files, and research into a living profile your agent can actually trust — with evidence in view and every risky change waiting for you." data-zh="Distilly 把对话、文件和研究整理成智能体真正可以信任的动态画像——证据始终可见，每一条有风险的变更都等你确认。">Distilly turns conversations, files, and research into a living profile your agent can actually trust — with evidence in view and every risky change waiting for you.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#quickstart">Get started <span>↗</span></a><a class="button button-light" href="demo.html">Explore the demo <span>⌁</span></a></div>
+        <div class="hero-meta"><span>v0.1 · TS foundation</span><span>MIT License</span><span>Works with your agent</span></div>
+      </div>
+      <div class="hero-stage">
+        <div class="stage-bar"><span class="stage-dot"></span><span>LIVE PROFILE · LOCAL PANEL</span><span class="stage-status">SYNCED</span></div>
+        <div class="profile-window">
+          <div class="profile-top"><div><span class="avatar">Z</span><div><strong>Zhou Tianyi</strong><small>Researcher · Builder</small></div></div><span class="version">v12 <i>current</i></span></div>
+          <div class="profile-body">
+            <div class="profile-side"><span class="side-label">PROFILE</span><div class="side-item active">Overview</div><div class="side-item">Claims <b>24</b></div><div class="side-item">Evidence <b>38</b></div><div class="side-item">Versions</div><div class="side-item">Review queue <b class="coral">2</b></div></div>
+            <div class="profile-main"><div class="main-label">RECENT SIGNALS <span>last 7 days</span></div><div class="signal-grid"><div class="signal-card"><span class="signal-icon mint">↗</span><div><strong>Prefers concise plans</strong><small>3 sources · high confidence</small></div><span class="check">✓</span></div><div class="signal-card"><span class="signal-icon blue">⌁</span><div><strong>Building Distilly in TypeScript</strong><small>2 sources · verified</small></div><span class="check">✓</span></div><div class="signal-card pending"><span class="signal-icon coral">!</span><div><strong>Works best with local tools</strong><small>new candidate · needs review</small></div><span class="review">REVIEW</span></div></div><div class="evidence-line"><span class="line-dot"></span><span>Every claim carries its source, time, and strength.</span><a href="demo.html">Inspect →</a></div></div>
+          </div>
+        </div>
+        <div class="stage-caption"><span>ENGINE · CLAIMS · EVIDENCE</span><span>one writer · deterministic render</span></div>
+      </div>
+    </section>
+
+    <section class="proof-strip"><div class="proof-item"><strong>01</strong><span>LOCAL<br>BY DEFAULT</span></div><div class="proof-item"><strong>02</strong><span>EVIDENCE<br>IN VIEW</span></div><div class="proof-item"><strong>03</strong><span>REVIEW<br>BEFORE COMMIT</span></div><div class="proof-item"><strong>04</strong><span>OPEN<br>PROTOCOL</span></div><div class="proof-item"><strong>∞</strong><span>YOUR<br>MEMORY</span></div></section>
+
+    <section class="section section-grid" id="how"><div class="section-head"><div class="eyebrow">01 · THE MODEL</div><h2 data-en="A profile is a set of<br><em>claims with receipts.</em>" data-zh="画像是一组<br><em>带凭证的主张。</em>">A profile is a set of<br><em>claims with receipts.</em></h2><p data-en="Your agent can help find and phrase what matters. Distilly keeps the semantic truth in a local engine: sources, strength, versions, and the decisions you make." data-zh="智能体帮你发现并表达重要信息。Distilly 把语义真相留在本地引擎：来源、强度、版本和你的每一次决定。">Your agent can help find and phrase what matters. Distilly keeps the semantic truth in a local engine: sources, strength, versions, and the decisions you make.</p></div><div class="model-flow"><div class="flow-step"><span class="flow-number">01</span><div class="flow-icon coral-bg">⌁</div><h3>Capture</h3><p>Bring in a conversation, note, or source. Nothing leaves your machine by default.</p><span class="flow-tag">INGEST</span></div><div class="flow-connector">→</div><div class="flow-step"><span class="flow-number">02</span><div class="flow-icon blue-bg">◈</div><h3>Distill</h3><p>Claims are drafted with pinned evidence and a deterministic review surface.</p><span class="flow-tag">BRIEF · CLAIM</span></div><div class="flow-connector">→</div><div class="flow-step"><span class="flow-number">03</span><div class="flow-icon mint-bg">✓</div><h3>Recall</h3><p>Inject the profile when your agent needs context, with the boundary still visible.</p><span class="flow-tag">PROMPT</span></div></div></section>
+
+    <section class="section dark-section"><div class="section-head light"><div class="eyebrow">02 · WHY DISTILLY</div><h2>Trust is a product<br><em>surface.</em></h2><p>A good memory system should show its work. Distilly makes the quiet, useful parts legible.</p></div><div class="feature-grid"><article class="feature-card"><span class="feature-index">A/01</span><h3>Claims, not vibes</h3><p>Structured facts with confidence, evidence links, and a clear lifecycle from candidate to current.</p><span class="feature-foot">SEMANTIC TRUTH</span></article><article class="feature-card"><span class="feature-index">A/02</span><h3>Review in the loop</h3><p>Risky or contradictory candidates suspend safely. You decide what becomes part of the profile.</p><span class="feature-foot">HUMAN CONTROL</span></article><article class="feature-card"><span class="feature-index">A/03</span><h3>Built to be local</h3><p>One root, one writer, deterministic projections. Your memory stays portable and inspectable.</p><span class="feature-foot">LOCAL-FIRST</span></article><article class="feature-card"><span class="feature-index">A/04</span><h3>Open seams</h3><p>Use the Facade, MCP adapter, or host bindings without giving a runtime direct access to storage.</p><span class="feature-foot">PROTOCOL LED</span></article></div></section>
+
+    <section class="section marketplace-preview section-grid"><div class="section-head"><div class="eyebrow">03 · COMMUNITY CATALOG</div><h2>Borrow a point of view.<br><em>Keep the keys.</em></h2><p>Shareable profile recipes for a focused sub-run. Browse the first collection, then make each one yours locally.</p></div><div class="catalog-row"><a class="catalog-card" href="marketplace.html"><div class="catalog-top"><span class="catalog-badge coral-bg">WRITING</span><span class="catalog-stars">★★★★★</span></div><h3>The concise editor</h3><p>A calm, high-signal voice for turning rough thinking into clear notes.</p><div class="catalog-by"><span class="mini-avatar coral">M</span><span>by Maya Chen</span><span class="arrow">↗</span></div></a><a class="catalog-card" href="marketplace.html"><div class="catalog-top"><span class="catalog-badge blue-bg">RESEARCH</span><span class="catalog-stars">★★★★<span>★</span></span></div><h3>Evidence mapper</h3><p>Trace claims to sources and keep uncertainty visible while you explore.</p><div class="catalog-by"><span class="mini-avatar blue">R</span><span>by Rafael Ortiz</span><span class="arrow">↗</span></div></a><a class="catalog-card" href="marketplace.html"><div class="catalog-top"><span class="catalog-badge mint-bg">PLANNING</span><span class="catalog-stars">★★★★★</span></div><h3>The gentle operator</h3><p>Turn a messy week into a small, sequenced plan you can actually finish.</p><div class="catalog-by"><span class="mini-avatar mint">N</span><span>by Noor Ibrahim</span><span class="arrow">↗</span></div></a></div><a class="text-link" href="marketplace.html">Browse the community catalog <span>→</span></a></section>
+
+    <section class="section quickstart section-grid" id="quickstart"><div class="quickstart-copy"><div class="eyebrow">04 · QUICK START</div><h2>Start with one<br><em>honest sentence.</em></h2><p>Install the skill, then ask your agent to remember something that matters. Distilly will show you the evidence before it keeps it.</p><div class="install-box"><code id="install-command">npx skills add titanwings/distilly --skill distilly --agent codex --global</code><button type="button" data-copy="install-command" aria-label="Copy install command">⧉</button></div><span class="copy-note" aria-live="polite"></span></div><div class="steps"><div class="step"><span>01</span><div><h3>Install</h3><p>Add Distilly to Codex, Claude Code, or your compatible host.</p></div></div><div class="step"><span>02</span><div><h3>Describe</h3><p>“Remember that I prefer short plans with evidence.”</p></div></div><div class="step"><span>03</span><div><h3>Review</h3><p>Open the local panel, inspect the source, and commit when it feels right.</p></div></div></div></section>
+
+    <section class="final-cta dark-section"><div class="eyebrow">DISTILLY · LOCAL MEMORY FOR AGENTS</div><h2>Make memory<br><em>worth trusting.</em></h2><div class="cta-actions"><a class="button button-coral" href="#quickstart">Install the skill <span>↗</span></a><a class="button button-outline" href="demo.html">Open interactive demo <span>⌁</span></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="index.html"><span class="mark">D</span><span>distilly</span></a><span>Local-first memory for people and agents.</span><div><a href="marketplace.html">Marketplace</a><a href="demo.html">Demo</a><a href="https://github.com/titanwings/distilly" target="_blank" rel="noreferrer">GitHub ↗</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
